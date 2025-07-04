@@ -1,10 +1,10 @@
 # bsdxm.github.io
 
-个人博客/静态网站源码仓库。
+个人博客源码仓库.
 
 ## 简介
 
-本仓库用于存放 [bsdxm.github.io](https://bsdxm.github.io) 的页面和相关资源。使用 GitHub Pages 或其他静态网页托管服务进行部署。
+本仓库用于存放 [bsdxm.github.io](https://bsdxm.github.io) 的页面和相关资源。使用 GitHub Pages 进行部署。
 
 ## 如何使用
 
@@ -26,7 +26,3 @@
 
 - `index.html`：主页
 - 其他静态资源（如图片、CSS、JS等）
-
-## License
-
-你可以在此处补充项目的开源协议说明（如 MIT、GPL 等）。
