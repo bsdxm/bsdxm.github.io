@@ -15,15 +15,17 @@
   <meta http-equiv="Cache-Control" content="no-siteapp">
 
 
-<link rel="alternate" type="application/rss+xml" title="Ethan's Blog" href="http://bsdxm.github.io/rss.xml" />
-<link rel="alternate" type="application/atom+xml" title="Ethan's Blog" href="http://bsdxm.github.io/atom.xml" />
-<link rel="alternate" type="application/json" title="Ethan's Blog" href="http://bsdxm.github.io/feed.json" />
+<link rel="alternate" type="application/rss+xml" title="春雨惊春的博客" href="http://bsdxm.github.io/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="春雨惊春的博客" href="http://bsdxm.github.io/atom.xml" />
+<link rel="alternate" type="application/json" title="春雨惊春的博客" href="http://bsdxm.github.io/feed.json" />
 
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
 <link rel="stylesheet" href="/css/app.css?v=0.2.5">
 
   
+  <meta name="keywords" content="技术" />
+
 
 <link rel="canonical" href="http://bsdxm.github.io/2025/07/08/%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8-hexo-%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
 
@@ -31,7 +33,7 @@
 
   <title>
 怎么使用 hexo 建博客 |
-An useless OIer's Blog = Ethan's Blog = 算法竞赛与编程学习笔记</title>
+Ethan's Blog = 春雨惊春的博客 = 算法竞赛与编程学习笔记</title>
 <meta name="generator" content="Hexo 7.3.0"></head>
 <body itemscope itemtype="http://schema.org/WebPage">
   <div id="loading">
@@ -84,7 +86,7 @@ An useless OIer's Blog = Ethan's Blog = 算法竞赛与编程学习笔记</title
       </div>
     </div>
     <ul class="menu">
-      <li class="item title"><a href="/" rel="start">An useless OIer's Blog</a></li>
+      <li class="item title"><a href="/" rel="start">Ethan's Blog</a></li>
     </ul>
     <ul class="right">
       <li class="item theme">
@@ -102,10 +104,10 @@ An useless OIer's Blog = Ethan's Blog = 算法竞赛与编程学习笔记</title
         <ul>
           <li class="item" data-background-image="https://www.yeyday.com/wp-content/uploads/2018/02/1g.jpg"></li>
           <li class="item" data-background-image="https://q8.itc.cn/q_70/images03/20250112/e19cd6a0ea5343579358504d57503334.jpeg"></li>
-          <li class="item" data-background-image="https://dimg04.c-ctrip.com/images/10040h0000008s9n50143_D_521_391.jpg"></li>
           <li class="item" data-background-image="https://q7.itc.cn/q_70/images03/20250112/fc5705a8d8894a67a9fd579502e7024d.jpeg"></li>
-          <li class="item" data-background-image="https://q7.itc.cn/q_70/images03/20241112/bfdd579b500e4f609bfe1e0fa8fb4522.jpeg"></li>
+          <li class="item" data-background-image="https://dimg04.c-ctrip.com/images/10040h0000008s9n50143_D_521_391.jpg"></li>
           <li class="item" data-background-image="https://q7.itc.cn/q_70/images03/20240526/2ca9c2ac45a94ebb8df8a6b993275cc1.jpeg"></li>
+          <li class="item" data-background-image="https://q7.itc.cn/q_70/images03/20241112/bfdd579b500e4f609bfe1e0fa8fb4522.jpeg"></li>
         </ul>
       </div>
     </header>
@@ -138,23 +140,130 @@ An useless OIer's Blog = Ethan's Blog = 算法竞赛与编程学习笔记</title
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="image" content="/images/avatar.jpg">
-    <meta itemprop="name" content="Ethan">
+    <meta itemprop="name" content="春雨惊春">
     <meta itemprop="description" content="算法竞赛与编程学习笔记, 初一 OIer 蒟蒻一枚">
   </span>
 
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Ethan's Blog">
+    <meta itemprop="name" content="春雨惊春的博客">
   </span>
 
   <div class="body md" itemprop="articleBody">
     
 
-    
+    <h1 id="怎么使用-hexo-建博客"><a href="#怎么使用-hexo-建博客" class="headerlink" title="怎么使用 hexo 建博客"></a>怎么使用 hexo 建博客</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>笔者刚刚配置完成 hexo 环境，正好也是在 hexo 博客上的第一篇文章，那必须讲点有关 hexo 的知识了。</p>
+<p>网上有很多关于 hexo 的教程，基本都有一个 bug，一旦 <code>hexo g</code> 的时候，就会报错，这其实是缺少 <code>js</code> 依赖的问题。如果你也遇到了这个 bug，那么恭喜你，看这篇文章就对了！先在博客的根目录的父文件夹执行 <code>rm -r (你的博客根目录)</code>（linux&#x2F;macos）或 <code>rmdir /s /q (你的博客根目录)</code>（windows），然后开始和新手一样重新配置环境。</p>
+<h2 id="必备内容"><a href="#必备内容" class="headerlink" title="必备内容"></a>必备内容</h2><ol>
+<li><span class="exturl" data-url="aHR0cHM6Ly93d3cuYmFpZHUuY29tL3M/aWU9VVRGLTgmd2Q9JUU1JUE2JTgyJUU0JUJEJTk1JUU1JTlDJUE4JUU1JTlCJUJEJUU1JTg2JTg1JUU5JUExJUJBJUU3JTk1JTg1JUU4JUFFJUJGJUU5JTk3JUFFJTIwR2l0SHVi">能够访问 github 的网络环境（不能是镜像站）</span>。</li>
+<li><span class="exturl" data-url="aHR0cHM6Ly93d3cuYmFpZHUuY29tL3M/d2Q9JUU2JUIzJUE4JUU1JTg2JThDJTIwZ2l0aHViJTIwJUU4JUI0JUE2JUU1JThGJUI3JnJzdl9zcHQ9MSZyc3ZfaXFpZD0weGRhMTdhNGRlMDAwMDM4YWYmaXNzcD0xJmY9OCZyc3ZfYnA9MSZyc3ZfaWR4PTImaWU9dXRmLTgmdG49YmFpZHVob21lX3BnJnJzdl9kbD1pYiZyc3ZfZW50ZXI9MSZyc3Zfc3VnMj0wJnJzdl9idHlwZT1pJmlucHV0VD02OTYzJnJzdl9zdWc0PTcwMjI=">一个 github 账号</span>。</li>
+<li>npm + nodejs<ul>
+<li>linux 推荐 apt,执行 <code>sudo apt install nodejs npm</code> 即可获取。</li>
+<li>windows 出门左转去<span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnLw==">官网</span>。</li>
+<li>macos 同样出门左转去<span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnLw==">官网</span>。</li>
+<li><code>npm configsetregistry https://registry.npmmirror.com</code> 设置 npm 镜像源。</li>
+</ul>
+</li>
+<li>git<ul>
+<li>linux 一般自带，否则 <code>sudo apt install git</code>。</li>
+<li>windows <span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS8=">官网</span>。</li>
+<li>macos <span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS8=">官网</span>。</li>
+</ul>
+</li>
+</ol>
+<h2 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h2><ol>
+<li><p>打开终端，执行 <code>npm install hexo-cli -g</code> 安装 hexo。</p>
+</li>
+<li><p>执行 <code>hexo init (你的博客根目录)</code> 初始化博客。</p>
+</li>
+<li><p>执行 <code>cd (你的博客根目录)</code> 进入博客目录。</p>
+</li>
+<li><p>至此，你可以 <code>hexo g</code> + <code>hexo s</code> 来测试博客是否正常运行。</p>
+<p>啊这……，你管这叫博客，什么垃圾网站！<br>赶紧 <code>hexo clean</code> 掉。</p>
+</li>
+<li><p>别急，我们需要配置主题，打开 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3RoZW1lcy8=">https://hexo.io/themes/</span> 。</p>
+</li>
+<li><p>选择一个你喜欢的主题，然后点开复制主题的仓库地址。</p>
+</li>
+<li><p><code>cd themes</code> 进入主题目录。</p>
+</li>
+<li><p>执行 <code>git clone (你刚刚复制的仓库地址)</code> 克隆主题。</p>
+</li>
+<li><p>执行 <code>cd (你刚刚复制的仓库地址)</code> 进入主题目录。</p>
+</li>
+<li><p>执行 <code>npm install</code> 安装主题依赖。</p>
+</li>
+<li><p><code>vim _config.yml</code> 打开配置主题文件。（友链:<span class="exturl" data-url="aHR0cHM6Ly9mYW55aS55b3VkYW8uY29tKS8=">https://fanyi.youdao.com）</span></p>
+</li>
+<li><p><code>cd ..</code></p>
+</li>
+<li><p><code>vim _config.yml</code> 打开配置博客文件。（同理）。</p>
+</li>
+<li><p>尝试 <code>hexo g</code> + <code>hexo s</code> 来测试博客是否正常运行。</p>
+</li>
+<li><p>如果正常运行，恭喜你，你已经成功配置好了博客环境。</p>
+</li>
+<li><p>如果没有正常运行，先有道翻译一下报错信息，然后：</p>
+</li>
+<li><p>如果显示缺少依赖，在执行 <code>npm install (缺少的依赖) --save</code> 安装依赖。</p>
+</li>
+<li><p>如果发现缺少配置，配就完了。</p>
+</li>
+<li><p>如果发现缺少图片，下载一个。</p>
+</li>
+<li><p>每次修改完配置，都需要执行 <code>hexo clean</code> 清理缓存。</p>
+</li>
+<li><p>如果还有问题</p>
+<ul>
+<li>Q 问：<span class="exturl" data-url="aHR0cHM6Ly9jaGF0LnF3ZW4uYWkvYy9ndWVzdA==">https://chat.qwen.ai/c/guest</span></li>
+<li>文心：<span class="exturl" data-url="aHR0cHM6Ly95aXlhbi5iYWlkdS5jb20v">https://yiyan.baidu.com/</span></li>
+<li>在问：<span class="exturl" data-url="aHR0cHM6Ly96YWl3ZW4ueHVlYmFuLm9yZy5jbi8=">https://zaiwen.xueban.org.cn</span></li>
+<li>deepseek：<span class="exturl" data-url="aHR0cHM6Ly9jaGF0LmRlZXBzZWVrLmNvbS8=">https://chat.deepseek.com/</span></li>
+<li>C 知道：<span class="exturl" data-url="aHR0cHM6Ly9haS5jc2RuLm5ldC8=">https://ai.csdn.net/</span></li>
+<li>度娘：<span class="exturl" data-url="aHR0cHM6Ly93d3cuYmFpZHUuY28v">https://www.baidu.co</span></li>
+</ul>
+<p>我就不信你找不到答案了。</p>
+</li>
+</ol>
+<h2 id="部署到-GitHub"><a href="#部署到-GitHub" class="headerlink" title="部署到 GitHub"></a>部署到 GitHub</h2><ol>
+<li><code>vim _config.yml</code> 打开配置博客文件。</li>
+<li>增加</li>
+</ol>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">&#x27;git&#x27;</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&#x27;git@github.com:（你的 GitHub 用户名）/（你的 GitHub 用户名）.github.io.git&#x27;</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">&#x27;main&#x27;</span></span><br></pre></td></tr></table></figure>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://worktile.com/kb/ask/529287.html">在 GitHub 上创建一个仓库，仓库名必须是 <code>（你的 GitHub 用户名）.github.io</code></a>。</li>
+<li>执行 <code>npm install hexo-deployer-git --save</code> 安装部署插件。</li>
+<li><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lvbmdodWlkMTIzNDUzL2FydGljbGUvZGV0YWlscy8xNDY5Mzc5NzY=">配置 ssh 密钥</span>。</li>
+<li>执行 <code>hexo d</code> 部署。</li>
+<li>享受你的博客吧！</li>
+</ol>
+<h2 id="写文章"><a href="#写文章" class="headerlink" title="写文章"></a>写文章</h2><ol>
+<li>执行 <code>hexo new (你的文章标题)</code> 新建文章。</li>
+<li>执行 <code>vim source/_posts/(你的文章标题).md</code> 打开文章。</li>
+<li>编辑文章。</li>
+<li>执行 <code>hexo clean</code> + <code>hexo g</code> + <code>hexo s</code> 预览文章。</li>
+</ol>
+<h2 id="停止颓废，放弃博客（推荐）"><a href="#停止颓废，放弃博客（推荐）" class="headerlink" title="停止颓废，放弃博客（推荐）"></a>停止颓废，放弃博客（推荐）</h2><ol>
+<li>打开博客目录的父目录。</li>
+<li>执行 <code>rm -r (你的博客根目录)</code>（linux&#x2F;macos）或 <code>rmdir /s /q (你的博客根目录)</code>（windows）。</li>
+<li>删除 GitHub 上的仓库。</li>
+<li>停止颓废，放弃博客。</li>
+</ol>
+<h1 id="完结撒花！"><a href="#完结撒花！" class="headerlink" title="完结撒花！"></a>完结撒花！</h1>
+      <div class="tags">
+          <a href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag"><i class="ic i-tag"></i> 技术</a>
+      </div>
   </div>
 
    <footer>
 
     <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">更新于</span>
+    <time title="修改时间：2025-07-09 16:23:16" itemprop="dateModified" datetime="2025-07-09T16:23:16+08:00">2025-07-09</time>
+  </span>
 </div>
 
       
@@ -164,17 +273,17 @@ An useless OIer's Blog = Ethan's Blog = 算法竞赛与编程学习笔记</title
   <div id="qr">
       
       <div>
-        <img data-src="/images/wechatpay.png" alt="Ethan 微信支付">
+        <img data-src="/images/wechatpay.png" alt="春雨惊春 微信支付">
         <p>微信支付</p>
       </div>
       
       <div>
-        <img data-src="/images/alipay.png" alt="Ethan 支付宝">
+        <img data-src="/images/alipay.png" alt="春雨惊春 支付宝">
         <p>支付宝</p>
       </div>
       
       <div>
-        <img data-src="/images/paypal.png" alt="Ethan 贝宝">
+        <img data-src="/images/paypal.png" alt="春雨惊春 贝宝">
         <p>贝宝</p>
       </div>
   </div>
@@ -185,7 +294,7 @@ An useless OIer's Blog = Ethan's Blog = 算法竞赛与编程学习笔记</title
 <div id="copyright">
 <ul>
   <li class="author">
-    <strong>本文作者： </strong>Ethan <i class="ic i-at"><em>@</em></i>Ethan's Blog
+    <strong>本文作者： </strong>春雨惊春 <i class="ic i-at"><em>@</em></i>春雨惊春的博客
   </li>
   <li class="link">
     <strong>本文链接：</strong>
@@ -224,14 +333,15 @@ An useless OIer's Blog = Ethan's Blog = 算法竞赛与编程学习笔记</title
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8-hexo-%E5%BB%BA%E5%8D%9A%E5%AE%A2"><span class="toc-number">1.</span> <span class="toc-text">怎么使用 hexo 建博客</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BF%85%E5%A4%87%E5%86%85%E5%AE%B9"><span class="toc-number">1.2.</span> <span class="toc-text">必备内容</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83"><span class="toc-number">1.3.</span> <span class="toc-text">配置环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%83%A8%E7%BD%B2%E5%88%B0-GitHub"><span class="toc-number">1.4.</span> <span class="toc-text">部署到 GitHub</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%99%E6%96%87%E7%AB%A0"><span class="toc-number">1.5.</span> <span class="toc-text">写文章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%81%9C%E6%AD%A2%E9%A2%93%E5%BA%9F%EF%BC%8C%E6%94%BE%E5%BC%83%E5%8D%9A%E5%AE%A2%EF%BC%88%E6%8E%A8%E8%8D%90%EF%BC%89"><span class="toc-number">1.6.</span> <span class="toc-text">停止颓废，放弃博客（推荐）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%8C%E7%BB%93%E6%92%92%E8%8A%B1%EF%BC%81"><span class="toc-number">2.</span> <span class="toc-text">完结撒花！</span></a></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
       </div>
       <div class="overview panel" data-title="站点概览">
         <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <img class="image" itemprop="image" alt="Ethan"
+  <img class="image" itemprop="image" alt="春雨惊春"
       data-src="/images/avatar.jpg">
-  <p class="name" itemprop="name">Ethan</p>
+  <p class="name" itemprop="name">春雨惊春</p>
   <div class="description" itemprop="description">初一 OIer 蒟蒻一枚</div>
 </div>
 
@@ -240,6 +350,12 @@ An useless OIer's Blog = Ethan's Blog = 算法竞赛与编程学习笔记</title
       <a href="/archives/">
         <span class="count">1</span>
         <span class="name">文章</span>
+      </a>
+    </div>
+    <div class="item tags">
+      <a href="/tags/">
+        <span class="count">1</span>
+        <span class="name">标签</span>
       </a>
     </div>
 </nav>
@@ -311,7 +427,7 @@ An useless OIer's Blog = Ethan's Blog = 算法竞赛与编程学习笔记</title
     <span class="with-love">
       <i class="ic i-sakura rotate"></i>
     </span>
-    <span class="author" itemprop="copyrightHolder">Ethan @ An useless OIer's Blog</span>
+    <span class="author" itemprop="copyrightHolder">春雨惊春 @ Ethan's Blog</span>
   </div>
   <div class="powered-by">
     基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
