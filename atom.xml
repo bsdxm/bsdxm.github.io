@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://bsdxm.github.io</id>
+    <title>春雨惊春的博客</title>
+    <subtitle>算法竞赛与编程学习笔记</subtitle>
+    <icon>http://bsdxm.github.io/images/favicon.ico</icon>
+    <link href="http://bsdxm.github.io" />
+    <author>
+      <name>春雨惊春</name>
+    </author>
+    <updated>2025-07-14T07:39:41.000Z</updated>
+    <entry>
+        <id>http://bsdxm.github.io/2025/07/14/2024-CSP-%E6%B8%B8%E8%AE%B0/</id>
+        <title>2024 CSP 游记</title>
+        <link rel="alternate" href="http://bsdxm.github.io/2025/07/14/2024-CSP-%E6%B8%B8%E8%AE%B0/"/>
+        <content type="html">&lt;h2 id=&#34;序&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#序&#34;&gt;&lt;/a&gt; 序&lt;/h2&gt;
+&lt;p&gt;黯淡无光的月亮孤独地悬挂在比往日更加阴沉的夜空中，企望隐匿在墨色的乌云里，杂草如乱麻一般在大地上肆虐，刺骨的寒风飞驰而来，比平常更加刺骨。街巷阡陌人山人海，使我难以平复本就悲伤的心情。&lt;/p&gt;
+&lt;p&gt;考完 S 的晚上，我忆起了我的“求学生涯”，我是否应该放弃那本就凹凸不平的 OI 之路……&lt;/p&gt;
+&lt;h2 id=&#34;回忆&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#回忆&#34;&gt;&lt;/a&gt; 回忆&lt;/h2&gt;
+&lt;p&gt;今年我 11 岁，还是一名“共产主义接班人”，这可能不是大家平常学 OI 的年龄，但富有个性的我还是一向渴望 AK IOI！&lt;/p&gt;
+&lt;p&gt;我学 C++ 纯属偶然。五年级我报了一个 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmFpZHUuY29tL3M/aWU9dXRmLTgmYW1wO2Y9OCZhbXA7cnN2X2JwPTEmYW1wO3Jzdl9pZHg9MSZhbXA7dG49YmFpZHUmYW1wO3dkPVglMjAlRTglQUYlQkUmYW1wO2ZlbmxlaT0yNTYmYW1wO29xPSUyNUU2JTI1QjglMjU4NSUyNUU1JTI1OEQlMjU4RSUyNUU5JTI1OTklMjU4NCUyNUU1JTI1QjAlMjU4RiUyNTIwWCUyNTIwJTI1RTglMjVBRiUyNUJFJTI1RTQlMjVCQSUyNUJBJTI1RTUlMjVCNyUyNUE1JTI1RTYlMjU5OSUyNUJBJTI1RTglMjU4MyUyNUJEJmFtcDtyc3ZfcHE9ZjM0NzhiY2IwMDBkNjNmNyZhbXA7cnN2X3Q9M2M1M0NKMVUlMkZPSFB3ckRyNDFBVjZ3UVFtJTJCTm1UNHJCY3RYdkcydGVJTld6akVvcjZvWkdZRDA1VnVvJmFtcDtycWxhbmc9Y24mYW1wO3Jzdl9lbnRlcj0xJmFtcDtyc3ZfZGw9dGImYW1wO3Jzdl9idHlwZT10JmFtcDtpbnB1dFQ9MjY1NSZhbXA7cnN2X3N1ZzM9NjUmYW1wO3Jzdl9zdWcxPTU2JmFtcDtyc3Zfc3VnNz0xMDAmYW1wO3Jzdl9zdWcyPTAmYW1wO3Jzdl9zdWc0PTI5NjU=&#34;&gt;X 课&lt;/span&gt;上选修了人工智能，其实就是遥控小车，碰巧同学带小车训练，没带回来，老师有碰巧教 C++ ，于是我们阴差阳错的上了一节 C++ 课，感到十分有趣。&lt;/p&gt;
+&lt;p&gt;我爸恰好是程序猿，于是我没找老师他讲课速度快，去年刚学三个月的我就过了 J 的初赛，66.5。分很特殊，复赛也很特殊，因为众所周知的原因，估分 90，但数组多开一个 0，分数乘上一个 0。&lt;/p&gt;
+&lt;p&gt;后来，我一点点学完了《信奥一本通》（orz 勿喷，我不知道有《深入浅出》），每天做两三道题，从一开始的橙题和黄题，到后来黄题和绿题，发现 OI 其实不难（jian dan）。&lt;/p&gt;
+&lt;p&gt;国庆期间我“为了祖国的未来，立志做栋梁”（tai cai le，bu de bu），进行了集训，集训期间，我认识了很多神犇，学会了很多，“人间能得几回闻”的高深算法（§ 寄：学新算法 反正也不会 §），模拟赛成绩只能说跌宕起伏，时而高，时而低，有一次文件夹名写错，&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;No&lt;/mtext&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;No&lt;/mtext&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mn&gt;7&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\texttt{No}.1 \rightarrow \texttt{No}.7&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord texttt&#34;&gt;No&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;→&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord texttt&#34;&gt;No&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;7&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;。“福不双至，祸不单行”，更有一次，忘写 &lt;code&gt;else&lt;/code&gt; &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;No&lt;/mtext&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;mtext mathvariant=&#34;monospace&#34;&gt;No&lt;/mtext&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;.&lt;/mi&gt;&lt;mn&gt;9&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\texttt{No}.1 \rightarrow \texttt{No}.9&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord texttt&#34;&gt;No&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;→&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord texttt&#34;&gt;No&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;9&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;。其实，我打打那时起就知道我的真实水平就如此，果然考试当天，出了大篓子。&lt;/p&gt;
+&lt;h2 id=&#34;csp-j&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#csp-j&#34;&gt;&lt;/a&gt; CSP-J&lt;/h2&gt;
+&lt;h3 id=&#34;t1&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#t1&#34;&gt;&lt;/a&gt; T1&lt;/h3&gt;
+&lt;p&gt;简单的语法题，轻松搞定。&lt;/p&gt;
+&lt;h3 id=&#34;t2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#t2&#34;&gt;&lt;/a&gt; T2&lt;/h3&gt;
+&lt;p&gt;按题意模拟即可，但最开始以为转向不算步数，写了一份错的代码，但很快发现了问题，不需要改太多，很快搞定。&lt;/p&gt;
+&lt;h3 id=&#34;t3&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#t3&#34;&gt;&lt;/a&gt; T3&lt;/h3&gt;
+&lt;p&gt;出了大篓子……&lt;/p&gt;
+&lt;p&gt;看到题目，我以为这题也很简单。正确读了题，但在读数据范围时，把 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;n&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.43056em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 误认成得数，以为得数 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo&gt;≤&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;msup&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\le 10^5&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.7719400000000001em;vertical-align:-0.13597em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;≤&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8141079999999999em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141079999999999em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;，就写了个打表，样例 AC，感到沾沾自喜，结果喜提 10 分。如果我没读错范围，打表 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;O&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mo&gt;×&lt;/mo&gt;&lt;msub&gt;&lt;mo&gt;&lt;mi&gt;log&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;/mo&gt;&lt;mn&gt;10&lt;/mn&gt;&lt;/msub&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\operatorname{O} (ans\times \log_{10} ans)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;&lt;span class=&#34;mord mathrm&#34;&gt;O&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;×&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop&#34;&gt;&lt;span class=&#34;mop&#34;&gt;lo&lt;span style=&#34;margin-right:0.01389em;&#34;&gt;g&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.20696799999999996em;&#34;&gt;&lt;span style=&#34;top:-2.4558600000000004em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.24414em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 的时间复杂度，至少 20 分。&lt;/p&gt;
+&lt;h3 id=&#34;t4&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#t4&#34;&gt;&lt;/a&gt; T4&lt;/h3&gt;
+&lt;p&gt;题目太长了，读题 20 分钟，读完以为 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo&gt;≤&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;msup&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;n \le 10^3&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.7719400000000001em;vertical-align:-0.13597em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;≤&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8141079999999999em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141079999999999em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 的都能做，做着做着，发现只有 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mo&gt;≤&lt;/mo&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;r \le 5&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.7719400000000001em;vertical-align:-0.13597em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;≤&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 的可以做，又做着做着，发现只会写 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;r = 1&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.43056em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 的骗分代码。&lt;/p&gt;
+&lt;h3 id=&#34;最终得分&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#最终得分&#34;&gt;&lt;/a&gt; 最终得分&lt;/h3&gt;
+&lt;p&gt;100（语法）+100（模拟）+10（打表）+5（骗分）=215（没有一点算法和思维）&lt;br /&gt;
+太差了！！！&lt;/p&gt;
+&lt;p&gt;自古几人登金榜，&lt;br /&gt;
+一路挫败又何妨。&lt;br /&gt;
+不悲不馁不言弃，&lt;br /&gt;
+重整旗鼓再辉煌。&lt;br /&gt;
+————— 原创《CSP-J 失分有感》，有五个字不合平仄，你们改吧。&lt;/p&gt;
+&lt;h2 id=&#34;csp-s&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#csp-s&#34;&gt;&lt;/a&gt; CSP-S&lt;/h2&gt;
+&lt;h3 id=&#34;t1-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#t1-2&#34;&gt;&lt;/a&gt; T1&lt;/h3&gt;
+&lt;p&gt;稍微一思考就可以做出来，贪心，让攻击力比小的怪先去攻击，然后再被其它怪兽消灭，但我发现第一个洛谷上题解做法更简单，orz。&lt;/p&gt;
+&lt;h3 id=&#34;t2-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#t2-2&#34;&gt;&lt;/a&gt; T2&lt;/h3&gt;
+&lt;p&gt;性质 A、B 很简单，最多只保留最后一个测速点，特判 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mo&gt;≤&lt;/mo&gt;&lt;mn&gt;20&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;m \le 20&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.7719400000000001em;vertical-align:-0.13597em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;≤&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 且 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mo&gt;≤&lt;/mo&gt;&lt;mn&gt;20&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;m \le 20&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.7719400000000001em;vertical-align:-0.13597em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;≤&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 暴搜。&lt;/p&gt;
+&lt;h3 id=&#34;t3-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#t3-2&#34;&gt;&lt;/a&gt; T3&lt;/h3&gt;
+&lt;p&gt;想出来 dp，其实状态定义和 50 分的标程一样，但不会转移。暴搜 20 分。&lt;/p&gt;
+&lt;h3 id=&#34;t4-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#t4-2&#34;&gt;&lt;/a&gt; T4&lt;/h3&gt;
+&lt;p&gt;题目又太长了，读题 30 分钟，读完以后知道性质 A 能做，但没写出来。&lt;/p&gt;
+&lt;h3 id=&#34;最终得分-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#最终得分-2&#34;&gt;&lt;/a&gt; 最终得分&lt;/h3&gt;
+&lt;p&gt;100（贪心）+60（暴力+特殊性质）+20（暴力）+0（暴力都写不出来）=180（不算太差）&lt;br /&gt;
+希望能一等奖吧。&lt;/p&gt;
+&lt;p&gt;月影朦胧夜无光，&lt;br /&gt;
+到来欣然去哀伤。&lt;br /&gt;
+乞求苍天怜不佞，&lt;br /&gt;
+赏我一张一等奖。&lt;br /&gt;
+————— 原创《CSP-S 失分有感》，最后一句纯凑数。&lt;/p&gt;
+&lt;h2 id=&#34;结语&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#结语&#34;&gt;&lt;/a&gt; 结语&lt;/h2&gt;
+&lt;p&gt;事已至此，再追悔莫及，不气馁，再创辉煌，长成祖国期待的模样！&lt;/p&gt;
+</content>
+        <category term="OI" scheme="http://bsdxm.github.io/categories/OI/" />
+        <category term="游记" scheme="http://bsdxm.github.io/categories/OI/%E6%B8%B8%E8%AE%B0/" />
+        <category term="CSP" scheme="http://bsdxm.github.io/tags/CSP/" />
+        <category term="OI" scheme="http://bsdxm.github.io/tags/OI/" />
+        <category term="游记" scheme="http://bsdxm.github.io/tags/%E6%B8%B8%E8%AE%B0/" />
+        <updated>2025-07-14T07:39:41.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://bsdxm.github.io/2025/07/13/%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8-Git/</id>
+        <title>怎么使用 Git</title>
+        <link rel="alternate" href="http://bsdxm.github.io/2025/07/13/%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8-Git/"/>
+        <content type="html">&lt;h1 id=&#34;怎么使用-git&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#怎么使用-git&#34;&gt;&lt;/a&gt; 怎么使用 Git&lt;/h1&gt;
+&lt;h2 id=&#34;什么是-git&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#什么是-git&#34;&gt;&lt;/a&gt; 什么是 Git&lt;/h2&gt;
+&lt;p&gt;如果你有一个团队，每个人都要写代码，有随时可能会出现冲突，怎么办？&lt;/p&gt;
+&lt;p&gt;如果你随时需要回滚到上一个版本，怎么办？&lt;/p&gt;
+&lt;p&gt;这里就需要 Git 来管理你的代码了。&lt;/p&gt;
+&lt;p&gt;Git 是一个版本控制软件，它可以让你管理你的代码，包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;备份你的代码&lt;/li&gt;
+&lt;li&gt;回滚到上一个版本&lt;/li&gt;
+&lt;li&gt;比较不同版本的代码&lt;/li&gt;
+&lt;li&gt;合并不同版本的代码&lt;/li&gt;
+&lt;li&gt;创建分支&lt;/li&gt;
+&lt;li&gt;推送代码到远程仓库&lt;/li&gt;
+&lt;li&gt;拉取代码到本地&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;下载-git&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#下载-git&#34;&gt;&lt;/a&gt; 下载 Git&lt;/h2&gt;
+&lt;p&gt;如果你使用 Windows 或 macOS，出门左转&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXQtc2NtLmNvbS8=&#34;&gt;官网&lt;/span&gt;。&lt;br /&gt;
+如果你使用 Linux，你可以使用 &lt;code&gt;sudo apt install git&lt;/code&gt; 来安装 Git。&lt;/p&gt;
+&lt;h2 id=&#34;配置-git&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#配置-git&#34;&gt;&lt;/a&gt; 配置 Git&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;打开终端，执行 &lt;code&gt;git config --global user.name &amp;quot;你的名字&amp;quot;&lt;/code&gt; 来设置你的名字。&lt;/li&gt;
+&lt;li&gt;执行 &lt;code&gt;git config --global user.email &amp;quot;你的邮箱&amp;quot;&lt;/code&gt; 来设置你的邮箱。&lt;/li&gt;
+&lt;li&gt;打开你的远程仓库，如 GitHub，下面就以 GitHub 为例。&lt;/li&gt;
+&lt;li&gt;执行 &lt;code&gt;ssh-keygen -t rsa -C &amp;quot;你的邮箱&amp;quot;&lt;/code&gt; 来生成 SSH 密钥。&lt;/li&gt;
+&lt;li&gt;打开 &lt;code&gt;你的用户目录/.ssh/id_rsa.pub&lt;/code&gt; 文件，复制里面的内容。其中 &lt;code&gt;你的用户目录&lt;/code&gt; 是你的用户目录，如 &lt;code&gt;/home/你的用户名&lt;/code&gt;，或者 &lt;code&gt;C:\Users\你的用户名&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;复制里面的内容。&lt;/li&gt;
+&lt;li&gt;打开 GitHub，登录你的账号。&lt;/li&gt;
+&lt;li&gt;点击右上角的头像，选择“Settings”。&lt;/li&gt;
+&lt;li&gt;点击“SSH and GPG keys”。&lt;/li&gt;
+&lt;li&gt;点击“New SSH key”。&lt;/li&gt;
+&lt;li&gt;在“Title”中填写一个名字，如“我的电脑”。&lt;/li&gt;
+&lt;li&gt;在“Key”中粘贴你复制的内容。&lt;/li&gt;
+&lt;li&gt;点击“Add SSH key”。&lt;/li&gt;
+&lt;li&gt;选择一种验证方式，如“Password”。&lt;/li&gt;
+&lt;li&gt;接下来就可以使用 Git 来管理你的代码了。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;使用-git&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用-git&#34;&gt;&lt;/a&gt; 使用 Git&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;打开终端，执行 &lt;code&gt;git clone (你的仓库地址)&lt;/code&gt; 来克隆你的仓库。&lt;/li&gt;
+&lt;li&gt;进行修改。&lt;/li&gt;
+&lt;li&gt;执行 &lt;code&gt;git add .&lt;/code&gt; 来添加修改的文件。&lt;/li&gt;
+&lt;li&gt;执行 &lt;code&gt;git commit -m &amp;quot;你的提交信息&amp;quot;&lt;/code&gt; 来提交修改。&lt;/li&gt;
+&lt;li&gt;执行 &lt;code&gt;git push origin master&lt;/code&gt; 来推送修改到远程仓库。（有可能是 &lt;code&gt;git push origin main&lt;/code&gt;，要看你主分支名字）&lt;/li&gt;
+&lt;li&gt;如果你想看别人的修改，你可以执行 &lt;code&gt;git pull&lt;/code&gt; 来拉取修改。&lt;/li&gt;
+&lt;li&gt;当然了，这只是 Git 的基础用法，还有很多高级用法，如：
+&lt;ul&gt;
+&lt;li&gt;分支&lt;/li&gt;
+&lt;li&gt;标签&lt;/li&gt;
+&lt;li&gt;合并&lt;/li&gt;
+&lt;li&gt;回滚&lt;/li&gt;
+&lt;li&gt;查看日志&lt;/li&gt;
+&lt;li&gt;查看状态&lt;/li&gt;
+&lt;li&gt;查看差异&lt;/li&gt;
+&lt;li&gt;查看远程仓库&lt;/li&gt;
+&lt;li&gt;查看本地仓库&lt;/li&gt;
+&lt;li&gt;查看提交&lt;/li&gt;
+&lt;li&gt;查看分支&lt;/li&gt;
+&lt;li&gt;查看标签&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;因为时间关系（&lt;s&gt;笔者也不会&lt;/s&gt;），这里就不一一介绍了，感兴趣的可以自行探索。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;完结撒花！&lt;/strong&gt;&lt;/p&gt;
+</content>
+        <category term="技术" scheme="http://bsdxm.github.io/categories/%E6%8A%80%E6%9C%AF/" />
+        <category term="Git" scheme="http://bsdxm.github.io/categories/%E6%8A%80%E6%9C%AF/Git/" />
+        <category term="Git" scheme="http://bsdxm.github.io/tags/Git/" />
+        <category term="GitHub" scheme="http://bsdxm.github.io/tags/GitHub/" />
+        <category term="开发" scheme="http://bsdxm.github.io/tags/%E5%BC%80%E5%8F%91/" />
+        <category term="技术" scheme="http://bsdxm.github.io/tags/%E6%8A%80%E6%9C%AF/" />
+        <updated>2025-07-13T10:00:29.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://bsdxm.github.io/2025/07/13/%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8-GitHub/</id>
+        <title>怎么使用 GitHub</title>
+        <link rel="alternate" href="http://bsdxm.github.io/2025/07/13/%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8-GitHub/"/>
+        <content type="html">&lt;h1 id=&#34;怎么使用-github&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#怎么使用-github&#34;&gt;&lt;/a&gt; 怎么使用 GitHub&lt;/h1&gt;
+&lt;h2 id=&#34;什么是-github&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#什么是-github&#34;&gt;&lt;/a&gt; 什么是 GitHub&lt;/h2&gt;
+&lt;p&gt;如果你只是想注册，那么你可以跳过这部分。&lt;/p&gt;
+&lt;p&gt;了解 GitHub 之前，我们先了解一下 &lt;a href=&#34;%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8-Git.md&#34;&gt;Git&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;那 Git 从哪克隆东西呢，总不能所有东西都在不同的地方吧。所以要有个中心（Hub），所以 GitHub 就诞生了。&lt;/p&gt;
+&lt;p&gt;当然了，GitLab，Gitcode，也是一种 Git 的中心，只不过最出名的还是 GitHub。&lt;/p&gt;
+&lt;h2 id=&#34;怎么在国内访问-github-官网&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#怎么在国内访问-github-官网&#34;&gt;&lt;/a&gt; 怎么在国内访问 GitHub 官网&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;有的优质运营商直接就能访问 GitHub。&lt;/li&gt;
+&lt;li&gt;科学上网。&lt;/li&gt;
+&lt;li&gt;下载 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zdGVhbXBwLm5ldC8=&#34;&gt;Watt Toolkit(原名 Steam++)&lt;/span&gt;，打开，点侧边栏的闪电（网络加速），记得勾选 GitHub 加速，点击”一键加速“。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;怎么注册-github-账号&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#怎么注册-github-账号&#34;&gt;&lt;/a&gt; 怎么注册 GitHub 账号&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;打开 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29t&#34;&gt;GitHub&lt;/span&gt;。&lt;/li&gt;
+&lt;li&gt;点击右上角的“Sign up”。&lt;/li&gt;
+&lt;li&gt;输入个人信息（才你想要：&lt;a href=&#34;fanyi.youdao.com&#34;&gt;有道翻译&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;打开邮箱，点击 GitHub 发送的邮件，复制验证码，输入验证码。&lt;/li&gt;
+&lt;li&gt;如果它问你问题，认真回答。&lt;/li&gt;
+&lt;li&gt;注册完成后，您可以进一步设置您的账户信息。包括上传头像、填写个人简介、选择关注的开发者或项目等。这些信息将展示在您的GitHub主页上，帮助其他用户更好地了解您。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;仓库怎么用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#仓库怎么用&#34;&gt;&lt;/a&gt; 仓库怎么用&lt;/h2&gt;
+&lt;h3 id=&#34;仓库是什么&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#仓库是什么&#34;&gt;&lt;/a&gt; 仓库是什么&lt;/h3&gt;
+&lt;p&gt;仓库是用来存储代码的地方。&lt;/p&gt;
+&lt;h3 id=&#34;仓库怎么用-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#仓库怎么用-2&#34;&gt;&lt;/a&gt; 仓库怎么用&lt;/h3&gt;
+&lt;p&gt;仓库有两种类型：公开仓库和私有仓库。&lt;br /&gt;
+公开仓库：任何人都可以访问。&lt;br /&gt;
+私有仓库：只有你自己可以访问。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;打开 GitHub，登录你的账号。&lt;/li&gt;
+&lt;li&gt;点击右上角的“+”号，选择“New repository”。&lt;/li&gt;
+&lt;li&gt;填写仓库名称，仓库描述，选择仓库类型，选择仓库许可证。其实只用填写仓库名称就可以了，用不到的默认就可以了。&lt;/li&gt;
+&lt;li&gt;点击“Create repository”。&lt;/li&gt;
+&lt;li&gt;下载&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2FwcHMvZGVza3RvcA==&#34;&gt;GitHub Desktop&lt;/span&gt;，或者配置&lt;a href=&#34;%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8-Git.md&#34;&gt;Git&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;打开 GitHub Desktop，点击“File”，选择“Clone repository”。&lt;/li&gt;
+&lt;li&gt;选择你要克隆的仓库，点击“Clone”。&lt;/li&gt;
+&lt;li&gt;克隆完成后，你可以在本地修改代码，然后推送到 GitHub 上。&lt;/li&gt;
+&lt;li&gt;推送到 GitHub 上，点击“Push origin”。&lt;/li&gt;
+&lt;li&gt;推送完成后，你可以在 GitHub 上查看你的代码。&lt;/li&gt;
+&lt;li&gt;如果有问题，你可以在 GitHub 上提 Issue。&lt;/li&gt;
+&lt;li&gt;如果你想修改别人仓库的代码，你可以在 GitHub 上提 Pull Request。&lt;/li&gt;
+&lt;li&gt;建议你为你的仓库添加 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL1JFQURNRS5tZA==&#34;&gt;README.md&lt;/span&gt; 文件，描述你的仓库是什么，怎么用，怎么安装，怎么配置。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;完结撒花！&lt;/strong&gt;&lt;/p&gt;
+</content>
+        <category term="技术" scheme="http://bsdxm.github.io/categories/%E6%8A%80%E6%9C%AF/" />
+        <category term="Git" scheme="http://bsdxm.github.io/categories/%E6%8A%80%E6%9C%AF/Git/" />
+        <category term="Git" scheme="http://bsdxm.github.io/tags/Git/" />
+        <category term="GitHub" scheme="http://bsdxm.github.io/tags/GitHub/" />
+        <category term="开发" scheme="http://bsdxm.github.io/tags/%E5%BC%80%E5%8F%91/" />
+        <category term="技术" scheme="http://bsdxm.github.io/tags/%E6%8A%80%E6%9C%AF/" />
+        <updated>2025-07-13T09:57:06.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://bsdxm.github.io/2025/07/08/%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8-hexo-%E5%BB%BA%E5%8D%9A%E5%AE%A2/</id>
+        <title>怎么使用 hexo 建博客</title>
+        <link rel="alternate" href="http://bsdxm.github.io/2025/07/08/%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8-hexo-%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+        <content type="html">&lt;h1 id=&#34;怎么使用-hexo-建博客&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#怎么使用-hexo-建博客&#34;&gt;&lt;/a&gt; 怎么使用 hexo 建博客&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;个人博客哪家强，hexo 最在行。&lt;/p&gt;
+&lt;p&gt;笔者刚刚配置完成 hexo 环境，正好也是在 hexo 博客上的第一篇文章，那必须讲点有关 hexo 的知识了。&lt;/p&gt;
+&lt;p&gt;网上有很多关于 hexo 的教程，基本都有一个 bug，一旦 &lt;code&gt;hexo g&lt;/code&gt; 的时候，就会报错，这其实是缺少 &lt;code&gt;js&lt;/code&gt; 依赖的问题。如果你也遇到了这个 bug，那么恭喜你，看这篇文章就对了！先在博客的根目录的父文件夹执行 &lt;code&gt;rm -r (你的博客根目录)&lt;/code&gt;（linux/macos）或 &lt;code&gt;rmdir /s /q (你的博客根目录)&lt;/code&gt;（windows），然后开始和新手一样重新配置环境。&lt;/p&gt;
+&lt;h2 id=&#34;必备内容&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#必备内容&#34;&gt;&lt;/a&gt; 必备内容&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8-GitHub.md&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;npm + nodejs
+&lt;ul&gt;
+&lt;li&gt;linux 推荐 apt,执行 &lt;code&gt;sudo apt install nodejs npm&lt;/code&gt; 即可获取。&lt;/li&gt;
+&lt;li&gt;windows 出门左转去&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ub2RlanMub3Jn&#34;&gt;官网&lt;/span&gt;。&lt;/li&gt;
+&lt;li&gt;macos 同样出门左转去&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ub2RlanMub3Jn&#34;&gt;官网&lt;/span&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;npm configsetregistry https://registry.npmmirror.com&lt;/code&gt; 设置 npm 镜像源。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8-Git.md&#34;&gt;git&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;配置环境&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#配置环境&#34;&gt;&lt;/a&gt; 配置环境&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;打开终端，执行 &lt;code&gt;npm install hexo-cli -g&lt;/code&gt; 安装 hexo。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;执行 &lt;code&gt;hexo init (你的博客根目录)&lt;/code&gt; 初始化博客。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;执行 &lt;code&gt;cd (你的博客根目录)&lt;/code&gt; 进入博客目录。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;至此，你可以 &lt;code&gt;hexo g&lt;/code&gt; + &lt;code&gt;hexo s&lt;/code&gt; 来测试博客是否正常运行。&lt;/p&gt;
+&lt;p&gt;啊这…，你管这叫博客，什么垃圾网站！&lt;br /&gt;
+赶紧 &lt;code&gt;hexo clean&lt;/code&gt; 掉。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;别急，我们需要配置主题，打开 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3RoZW1lcy8=&#34;&gt;https://hexo.io/themes/&lt;/span&gt; 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择一个你喜欢的主题，然后点开复制主题的仓库地址。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;cd themes&lt;/code&gt; 进入主题目录。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;执行 &lt;code&gt;git clone (你刚刚复制的仓库地址) (仓库地址去掉 hexo-theme-)&lt;/code&gt; 克隆主题。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;执行 &lt;code&gt;cd (你刚刚复制的仓库地址)&lt;/code&gt; 进入主题目录。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;执行 &lt;code&gt;npm install&lt;/code&gt; 安装主题依赖。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;vim _config.yml&lt;/code&gt; 打开配置主题文件。（才你想要：&lt;a href=&#34;fanyi.youdao.com&#34;&gt;有道翻译&lt;/a&gt;）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;cd ..&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;vim _config.yml&lt;/code&gt; 打开配置博客文件。（注意&lt;code&gt;theme:&lt;/code&gt;后填你的主题）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;尝试 &lt;code&gt;hexo g&lt;/code&gt; + &lt;code&gt;hexo s&lt;/code&gt; 来测试博客是否正常运行。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果正常运行，恭喜你，你已经成功配置好了博客环境。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果没有正常运行，先有道翻译一下报错信息，然后：&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果显示缺少依赖，在执行 &lt;code&gt;npm install (缺少的依赖) --save&lt;/code&gt; 安装依赖。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果发现缺少配置，配就完了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果发现缺少图片，下载一个。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;每次修改完配置，都需要执行 &lt;code&gt;hexo clean&lt;/code&gt; 清理缓存。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果还有问题&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Q 问：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jaGF0LnF3ZW4uYWkvYy9ndWVzdA==&#34;&gt;https://chat.qwen.ai/c/guest&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;文心：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly95aXlhbi5iYWlkdS5jb20=&#34;&gt;https://yiyan.baidu.com&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;在问：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96YWl3ZW4ueHVlYmFuLm9yZy5jbg==&#34;&gt;https://zaiwen.xueban.org.cn&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;deepseek：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jaGF0LmRlZXBzZWVrLmNvbQ==&#34;&gt;https://chat.deepseek.com&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;C 知道：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9haS5jc2RuLm5ldA==&#34;&gt;https://ai.csdn.net&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;度娘：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmFpZHUuY29t&#34;&gt;https://www.baidu.com&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我就不信你找不到答案了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;部署到-github&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#部署到-github&#34;&gt;&lt;/a&gt; 部署到 GitHub&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;vim _config.yml&lt;/code&gt; 打开配置博客文件。&lt;/li&gt;
+&lt;li&gt;增加&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight yml&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;deploy:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;type:&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;#x27;git&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;repo:&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;#x27;git@github.com:（你的 GitHub 用户名）/（你的 GitHub 用户名）.github.io.git&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;branch:&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;#x27;main&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ol&gt;
+&lt;li&gt;执行 &lt;code&gt;npm install hexo-deployer-git --save&lt;/code&gt; 安装部署插件。&lt;/li&gt;
+&lt;li&gt;执行 &lt;code&gt;hexo d&lt;/code&gt; 部署。&lt;/li&gt;
+&lt;li&gt;享受你的博客吧！&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;写文章&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#写文章&#34;&gt;&lt;/a&gt; 写文章&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;执行 &lt;code&gt;hexo new (你的文章标题)&lt;/code&gt; 新建文章。&lt;/li&gt;
+&lt;li&gt;执行 &lt;code&gt;vim source/_posts/(你的文章标题).md&lt;/code&gt; 打开文章。&lt;/li&gt;
+&lt;li&gt;编辑文章。&lt;/li&gt;
+&lt;li&gt;执行 &lt;code&gt;hexo clean&lt;/code&gt; + &lt;code&gt;hexo g&lt;/code&gt; + &lt;code&gt;hexo s&lt;/code&gt; 预览文章。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;删除文章&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#删除文章&#34;&gt;&lt;/a&gt; 删除文章&lt;/h2&gt;
+&lt;p&gt;直接删除 &lt;code&gt;source/_posts/(你的文章标题).md&lt;/code&gt; 即可。&lt;/p&gt;
+&lt;h2 id=&#34;停止颓废放弃博客推荐&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#停止颓废放弃博客推荐&#34;&gt;&lt;/a&gt; 停止颓废，放弃博客（推荐）&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;打开博客目录的父目录。&lt;/li&gt;
+&lt;li&gt;执行 &lt;code&gt;rm -r (你的博客根目录)&lt;/code&gt;（linux/macos）或 &lt;code&gt;rmdir /s /q (你的博客根目录)&lt;/code&gt;（windows）。&lt;/li&gt;
+&lt;li&gt;删除 GitHub 上的仓库。&lt;/li&gt;
+&lt;li&gt;停止颓废，放弃博客。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;完结撒花！&lt;/strong&gt;&lt;/p&gt;
+</content>
+        <category term="技术" scheme="http://bsdxm.github.io/categories/%E6%8A%80%E6%9C%AF/" />
+        <category term="开发" scheme="http://bsdxm.github.io/categories/%E6%8A%80%E6%9C%AF/%E5%BC%80%E5%8F%91/" />
+        <category term="网页开发" scheme="http://bsdxm.github.io/categories/%E6%8A%80%E6%9C%AF/%E5%BC%80%E5%8F%91/%E7%BD%91%E9%A1%B5%E5%BC%80%E5%8F%91/" />
+        <category term="开发" scheme="http://bsdxm.github.io/tags/%E5%BC%80%E5%8F%91/" />
+        <category term="技术" scheme="http://bsdxm.github.io/tags/%E6%8A%80%E6%9C%AF/" />
+        <category term="hexo" scheme="http://bsdxm.github.io/tags/hexo/" />
+        <category term="网页开发" scheme="http://bsdxm.github.io/tags/%E7%BD%91%E9%A1%B5%E5%BC%80%E5%8F%91/" />
+        <updated>2025-07-08T06:40:07.000Z</updated>
+    </entry>
+</feed>
